@@ -20,6 +20,10 @@
             font-size: 1.2em;
             
         }
+        *{
+          margin: 0;
+          padding: 0;
+        }
         .top-heading{
             height: 550px;
             background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
@@ -75,6 +79,21 @@
           border-top-right-radius: 5%;
           border-top-left-radius: 5%;
         }
+        @media only screen and (max-width:500px){
+          .card-image{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 10px auto;
+          }
+          .app-image{
+            margin: 0 auto;
+          }
+          .store{
+            text-align: center;
+          }
+        }
+
 
     </style>
 </head>
@@ -204,51 +223,51 @@
                 <h5>Bodakdev</h3>
                 <p>362 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>Navrangpura</h3>
                 <p>305 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>Prahlad Nagar</h3>
                 <p>192 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
         </div>
         <div class="row mt-3">
             <div class="col-3">
                 <h5>Satellite</h3>
                 <p>345 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>Vastrapur</h3>
                 <p>222 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>CG Road</h3>
                 <p>92 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
         </div>
         <div class="row mt-3">
             <div class="col-3">
                 <h5>Gurukul</h3>
                 <p>84 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>Thaltej</h3>
                 <p>243 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
             <div class="col-3">
                 <h5>Bodakdev</h3>
                 <p>362 places</p>
             </div>
-            <div class="col-1"><i class="fa-thin fa-greater-than"></i></div>
+            <div class="col-1"><i class="fa fa-location-dot" style="color: red;"></i></div>
         </div>
     </div>
     <!-- get app -->
@@ -279,8 +298,11 @@
                       </div>
                       <button type="submit" class="btn btn-danger ml-2">Share App Link</button>
                   </div>
+                  <div class="store">
+
                     <img src="images/playstore.png" alt="" width="120" height="60">
                     <img src="images/appstore.png" alt="" width="110" height="120">
+                  </div>
                   
             </div>
         </div>
